@@ -1,20 +1,9 @@
 import pandas as pd
-import nltk
 import re
-# nltk.download('stopwords')
-# nltk.download()
-# from nltk.corpus import stopwords
-import numpy as  np
-
-# import enchant
-# en_dict = enchant.Dict("en_US")
 import sys
 from nltk.stem import WordNetLemmatizer
 wnl = WordNetLemmatizer()
 
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.feature_extraction.text import TfidfTransformer
 
 import time
 
@@ -26,25 +15,29 @@ stop=[]
 with open("C:\\Users\\t-yunche\\file\\dataset\\stop_words.txt",'r') as f:
     stop=f.readlines()
 stop=[s[:-1] for s in stop]
-
+f.close()
 
 '''
 get source data file
 '''
 
 file_name="C:\\Users\\t-yunche\\file\\dataset\\topic\\"
-file_idx=sys.argv[2]
-data=pd.read_csv(file_name+str(sys.argv[1])+'.tsv',delimiter='\t',error_bad_lines=False,encoding='utf8')
+
+print("loading the source data...")
+
+data=pd.read_csv(file_name+str(sys.argv[1])+'.tsv',delimiter='\t',error_bad_lines=False,encoding='utf8',header=None)
 
 '''
 get label file
 '''
+print("loading the label data....")
+
 label_dict={}
 with open('./label.txt','r',encoding='utf8') as f:
     labels=f.readlines()
     for idx,label in enumerate(labels):
         label_dict[label[:-1]]=str(idx)
-
+f.close()
 # f=open("./data.txt",'w+')
 #'!|\"|#|&|\'|(|)|*|+|,|.|/|:|;|<|=|>|?|@|[|\\|]|^|_|`|{|\||}|~|]|+|'
 # chars=['[','\\',']','^','_','`','{','|','}','~',']','+','!','\"','#','%','&','\'','(',')','*','+'',','-','.','/',':',';','<','=','>','?','@','0','1','2','3','4','5','6','7','8','9']#'$'
@@ -58,7 +51,7 @@ rule=re.compile(u"[^a-zA-Z ]")
 text_list=[]
 label_list=[]
 print(data.shape)
-
+print("data process...")
 f=open("C:\\Users\\t-yunche\\file\\dataset\\topic_X_Y\\"+str(sys.argv[1])+".tsv",'w+')
 time_start = time.time()
 for i,d in enumerate(data.iterrows()):
@@ -116,7 +109,7 @@ for i,d in enumerate(data.iterrows()):
 
 
     # text_list.append(arr_)
-    f.write(arr_+'\t'+topic_i)
+    f.write(arr_+'\t'+topic_i+'\n')
 
 f.close()
 del data

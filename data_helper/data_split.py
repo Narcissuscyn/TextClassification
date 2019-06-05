@@ -4,9 +4,9 @@ import pandas as pd
 import numpy as np
 import os
 import re
-data=pd.read_csv("C:\\Users\\t-yunche\\file\\dataset\\Flipboard_Join_Body.tsv",sep='\t',error_bad_lines=False,encoding='utf8')
+data=pd.read_csv("C:\\Users\\t-yunche\\file\\dataset\\Flipboard_Join_Body.tsv",sep='\t',error_bad_lines=False,encoding='utf8',header=None)
 
-COUNT=300000
+COUNT=500000
 num=0
 #8-splits
 dir_idx=1

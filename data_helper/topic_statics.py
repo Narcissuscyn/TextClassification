@@ -4,7 +4,7 @@ import numpy as np
 import re
 from nltk.stem import WordNetLemmatizer
 wnl = WordNetLemmatizer()
-data=pd.read_csv("C:\\Users\\t-yunche\\file\\dataset\\Flipboard_Join_Body.tsv",sep='\t',error_bad_lines=False,encoding='utf8')
+data=pd.read_csv("C:\\Users\\t-yunche\\file\\dataset\\Flipboard_Join_Body.tsv",sep='\t',error_bad_lines=False,encoding='utf8',header=None)
 
 freq={}
 freq_thresh=3
