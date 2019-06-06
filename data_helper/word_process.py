@@ -8,6 +8,18 @@ wnl = WordNetLemmatizer()
 import time
 
 '''
+get label file
+'''
+print("loading the label data....")
+label_dict={}
+with open('./label_th10.txt','r',encoding='utf8') as f:#label index start from 0
+    labels=f.readlines()
+    for idx,label in enumerate(labels):
+        label_dict[label[:-1]]=str(idx)
+f.close()
+
+
+'''
 get stop words list
 '''
 # stop=stopwords.words('english')
@@ -17,59 +29,37 @@ with open("C:\\Users\\t-yunche\\file\\dataset\\stop_words.txt",'r') as f:
 stop=[s[:-1] for s in stop]
 f.close()
 
+
 '''
 get source data file
 '''
-
-file_name="C:\\Users\\t-yunche\\file\\dataset\\topic\\"
-
+file_name="C:\\Users\\t-yunche\\file\\dataset\\topic_mini\\source\\"
 print("loading the source data...")
-
 data=pd.read_csv(file_name+str(sys.argv[1])+'.tsv',delimiter='\t',error_bad_lines=False,encoding='utf8',header=None)
 
-'''
-get label file
-'''
-print("loading the label data....")
-
-label_dict={}
-with open('./label.txt','r',encoding='utf8') as f:
-    labels=f.readlines()
-    for idx,label in enumerate(labels):
-        label_dict[label[:-1]]=str(idx)
-f.close()
-# f=open("./data.txt",'w+')
-#'!|\"|#|&|\'|(|)|*|+|,|.|/|:|;|<|=|>|?|@|[|\\|]|^|_|`|{|\||}|~|]|+|'
-# chars=['[','\\',']','^','_','`','{','|','}','~',']','+','!','\"','#','%','&','\'','(',')','*','+'',','-','.','/',':',';','<','=','>','?','@','0','1','2','3','4','5','6','7','8','9']#'$'
-
 
 '''
-get text feature
+text preprocess
 '''
 word_dict={}
 rule=re.compile(u"[^a-zA-Z ]")
-text_list=[]
-label_list=[]
 print(data.shape)
 print("data process...")
-f=open("C:\\Users\\t-yunche\\file\\dataset\\topic_X_Y\\"+str(sys.argv[1])+".tsv",'w+')
+f=open("C:\\Users\\t-yunche\\file\\dataset\\topic_mini\\X_Y\\"+str(sys.argv[1])+".tsv",'w+')
 time_start = time.time()
 for i,d in enumerate(data.iterrows()):
-    if(i%1000==0):
 
+    if(i%1000==0):
         time_end = time.time()
         print('time cost', time_end - time_start, 's')
         time_start=time_end
         print("iterrows:",i)
-    # feature_instance = []
+
     data_i=d[1].array
 
     # topic=>label list
     topic = data_i[-1]
-    # if (topic is np.nan):
-    #     # print(d)
-    #     continue
-    topic = topic.split(', ')#?
+    topic = topic.split(', ')
     topic_i = ""
     for a in topic:
         a = rule.sub("", a)
@@ -79,14 +69,12 @@ for i,d in enumerate(data.iterrows()):
             a = wnl.lemmatize(a)  # lemmatization
         if (a in label_dict.keys()):
             a=label_dict[a]
-            if (topic_i == ''):
+            if (topic_i == ""):
                 topic_i =a
             else:
                 topic_i += ',' + a
-    if(topic_i==''):
+    if(topic_i==""):
         continue
-    # label_list.append(topic_i)
-
     # title+body=>text_list
     arr=data_i[0]+' '+data_i[1]
     arr=arr.split(' ')
@@ -107,17 +95,10 @@ for i,d in enumerate(data.iterrows()):
         else:
             arr_+=" "+a
 
-
-    # text_list.append(arr_)
     f.write(arr_+'\t'+topic_i+'\n')
 
 f.close()
 del data
-
-
-
-print(text_list.__len__())
-print(label_list.__len__())
 
 
 

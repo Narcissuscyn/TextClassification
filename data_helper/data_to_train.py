@@ -2,12 +2,12 @@
 import pandas as pd
 import time
 import os
-file_pth="C:\\Users\\t-yunche\\file\\dataset\\topic_xf_y"
+file_pth="C:\\Users\\t-yunche\\file\\dataset\\topic_mini\\ft"
 print("loading data...")
-data=pd.read_csv(os.path.join(file_pth,'7.txt'),sep='\t',error_bad_lines=False,encoding='utf8',header=None,skiprows=1)#skiprows:skip 1 row from top
-f=open(os.path.join(file_pth,'7.txt'),'r')
+data=pd.read_csv(os.path.join(file_pth,'topic_mini_x_y.txt'),sep='\t',error_bad_lines=False,encoding='utf8',header=None,skiprows=1)#skiprows:skip 1 row from top
+f=open(os.path.join(file_pth,'topic_mini_x_y.txt'),'r')
 num_data,num_ft=f.readline()[:-1].split(' ')
-num_label='18081'
+num_label='16965'
 f.close()
 
 print("spliting test and train file...")
@@ -18,7 +18,7 @@ f2=open(os.path.join(file_pth,'train_y.txt'),'w+',encoding='utf8')
 f1.write(num_data+' '+num_ft+'\n')
 f2.write(num_data+' '+num_label+'\n')
 isTest=False
-# time_start = time.time()
+time_start = time.time()
 print("total data count:",data.shape[0])
 train_cnt=0
 for i,r in enumerate(data.iterrows()):
