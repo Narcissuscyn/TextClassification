@@ -2,6 +2,7 @@
 import pandas as pd
 import time
 import os
+
 file_pth="C:\\Users\\t-yunche\\file\\dataset\\topic_mini\\ft"
 print("loading data...")
 data=pd.read_csv(os.path.join(file_pth,'topic_mini_x_y.txt'),sep='\t',error_bad_lines=False,encoding='utf8',header=None,skiprows=1)#skiprows:skip 1 row from top
