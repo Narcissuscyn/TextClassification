@@ -6,7 +6,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 
-file_name="C:\\Users\\t-yunche\\file\\dataset\\topic_mini\\X_Y"
+file_name="C:\\Users\\t-yunche\\file\\dataset\\topic\\X_Y"
 text_list=[]
 label_list=[]
 i=1
@@ -29,8 +29,8 @@ bow = vectorizer.fit_transform(text_list)
 # print(bow.toarray())
 
 print("write bow feature to file")
-tar_dir="C:\\Users\\t-yunche\\file\\dataset\\topic_mini\\ft"
-f=open(os.path.join(tar_dir,"topic_mini_x_y.txt"),'w+',encoding='utf8')
+tar_dir="C:\\Users\\t-yunche\\file\\dataset\\topic\\ft"
+f=open(os.path.join(tar_dir,"topic_x_y.txt"),'w+',encoding='utf8')
 f.write(str(bow.shape[0])+" "+str(bow.shape[1])+"\n")
 # bow_=bow.toarray()
 print(bow.shape)

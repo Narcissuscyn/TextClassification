@@ -4,23 +4,29 @@ import numpy as np
 import re
 from nltk.stem import WordNetLemmatizer
 wnl = WordNetLemmatizer()
-
+import os
 print("loading dataset...")
-data=pd.read_csv("C:\\Users\\t-yunche\\file\\dataset\\Flipboard_Join_Body.tsv",sep='\t',error_bad_lines=False,encoding='utf8',header=None)
+# data=pd.read_csv("C:\\Users\\t-yunche\\file\\dataset\\Flipboard_Join_Body.tsv",sep='\t',error_bad_lines=False,encoding='utf8',header=None)
+data_dir="C:\\Users\\t-yunche\\file\\dataset\\topic\\source"
+label_list=[]
+i=1
+while(i<7):
+    file=os.path.join(data_dir,str(i)+'.tsv')
+    print("loading file ", file)
+    data=pd.read_csv(file,delimiter='\t',error_bad_lines=False,encoding='utf8',header=None)
+    label_list.extend(data[2])
+    del data
+    i+=1
+
 
 freq={}
 freq_thresh=10
 rule=re.compile(u"[^a-zA-Z ]")
 
-print("data count:",data.shape[0])
-for i,d in enumerate(data.iterrows()):
-    arr=d[1].array
-    if (arr.shape[0] != 4 or arr[-2]is np.nan):
-        # print(d)
-        continue
-    topic = arr[-2]
-    topic = topic.lower()
-    topic = topic.split(', ')
+# print("data count:",data.shape[0])
+for i,d in enumerate(label_list):
+
+    topic = d.split(', ')
     for a in topic:
         a = rule.sub("", a)
         if (a == ''):
@@ -42,7 +48,7 @@ freq = sorted(freq.items(), key=lambda x: x[1],reverse=True)
 print(freq)
 
 
-f=open("./label1.txt",'w+',encoding='utf-8')
+f=open("./label_th10.txt",'w+',encoding='utf-8')
 for idx,item in enumerate(freq):
     print(item)
     f.write((item[0]+'\n'))

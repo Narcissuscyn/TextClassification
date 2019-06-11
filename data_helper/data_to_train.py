@@ -2,19 +2,18 @@
 import pandas as pd
 import time
 import os
-
-file_pth="C:\\Users\\t-yunche\\file\\dataset\\topic_mini\\ft"
+file_pth="C:\\Users\\t-yunche\\file\\dataset\\topic\\ft"
 print("loading data...")
-data=pd.read_csv(os.path.join(file_pth,'topic_mini_x_y.txt'),sep='\t',error_bad_lines=False,encoding='utf8',header=None,skiprows=1)#skiprows:skip 1 row from top
-f=open(os.path.join(file_pth,'topic_mini_x_y.txt'),'r')
+data=pd.read_csv(os.path.join(file_pth,'topic_x_y.txt'),sep='\t',error_bad_lines=False,encoding='utf8',header=None,skiprows=1)#skiprows:skip 1 row from top
+f=open(os.path.join(file_pth,'topic_x_y.txt'),'r')
 num_data,num_ft=f.readline()[:-1].split(' ')
 num_label='16965'
 f.close()
 
 print("spliting test and train file...")
 
-f1=open(os.path.join(file_pth,'train_xf.txt'),'w+',encoding='utf8')
-f2=open(os.path.join(file_pth,'train_y.txt'),'w+',encoding='utf8')
+f1=open(os.path.join(file_pth,'trn_X_Xf.txt'),'w+',encoding='utf8')
+f2=open(os.path.join(file_pth,'trn_X_Y.txt'),'w+',encoding='utf8')
 
 f1.write(num_data+' '+num_ft+'\n')
 f2.write(num_data+' '+num_label+'\n')
@@ -32,8 +31,8 @@ for i,r in enumerate(data.iterrows()):
     if(not isTest and i>0.8*data.shape[0]):
         train_cnt=i
         print("train data count:",i)
-        f1 = open(os.path.join(file_pth, 'test_xf.txt'), 'w+', encoding='utf8')
-        f2 = open(os.path.join(file_pth, 'test_y.txt'), 'w+', encoding='utf8')
+        f1 = open(os.path.join(file_pth, 'tst_X_Xf.txt'), 'w+', encoding='utf8')
+        f2 = open(os.path.join(file_pth, 'tst_X_Y.txt'), 'w+', encoding='utf8')
         f1.write(num_data + ' ' + num_ft + '\n')
         f2.write(num_data + ' ' + num_label + '\n')
         isTest=True
