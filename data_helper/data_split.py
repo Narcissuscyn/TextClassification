@@ -66,18 +66,18 @@ import re
 # data=pd.read_csv("C:\\Users\\t-yunche\\file\\dataset\\Flipboard_Join_Body.tsv",sep='\t',error_bad_lines=False,encoding='utf8',header=None)
 
 
-COUNT=240000
+COUNT=210000
 num=0
 #8-splits
 dir_idx=1
 
-DATA="C:\\Users\\t-yunche\\file\dataset\\topic_clean"
+DATA="D:\\dataset\\FlipBoard_6k\\raw"
 if not os.path.exists(DATA):
     os.mkdir(DATA)
 
 f=open(os.path.join(DATA, str(dir_idx)+".tsv"),'w+',encoding='utf8')
 time_start = time.time()
-with open('./res/FJB_Merge_remove_shuffle.tsv','r',encoding='utf8') as f_r:
+with open("res/FlipBoard_6k.tsv",'r',encoding='utf8') as f_r:
     i=-1
     while True:
         i+=1

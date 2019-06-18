@@ -23,7 +23,7 @@ label_list=[]
 #     del data
 #     i+=1
 
-with open('C:\\Users\\t-yunche\\file\\code\\data_helper\\FJB_Merge_remove.tsv','r',encoding='utf8') as f_r:
+with open("D:\\dataset\\FlipBoard_6k\\X_Y\\all.tsv",'r',encoding='utf8') as f_r:
     while True:
         a=f_r.readline()
         if not a:
@@ -31,7 +31,7 @@ with open('C:\\Users\\t-yunche\\file\\code\\data_helper\\FJB_Merge_remove.tsv','
         label_list.append(a.split('\t')[2])
 
 
-f=open("./res/multi-label-frequency.txt",'w+',encoding='utf8')
+f=open("./res/multi_label_frequency_6k.txt",'w+',encoding='utf8')
 data_freq=[0]*200
 max_len=0;
 for i,label in enumerate(label_list):
@@ -57,5 +57,5 @@ plt.bar(x,data_freq,color="blue")
 plt.xlabel("labbel-num")
 plt.ylabel("label-freq")
 plt.title("multi-label statistic")
-plt.savefig("./res/multi_label_freq.jpg")
+plt.savefig("./res/multi_label_freq_6k.jpg")
 plt.show()

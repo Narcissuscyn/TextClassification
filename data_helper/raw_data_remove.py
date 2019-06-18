@@ -1,13 +1,15 @@
 print("loading labels.....")
 
-labels=[]
+labels={}
 
-with open('C:\\Users\\t-yunche\\file\\code\\data_helper\\ful_lbl_lst_del.txt','r',encoding='utf8') as f_r:
-    labels=f_r.readlines()
-    labels=[labels[i][:-1] for i in range(len(labels))]
-
-with open("FJB_Merge.tsv", 'r', encoding='utf8') as f_r:
-    with open('FJB_Merge_remove.tsv','w+',encoding='utf8') as f_w:
+with open('./res/lbl_6k.txt','r',encoding='utf8') as f_r:
+    lines=f_r.readlines()
+    for l in lines:
+        labels.setdefault(l[:-1],0)
+print("remove data with labels not in labels list...")
+with open("./res/FJB_Merge_shuffle.tsv", 'r', encoding='utf8') as f_r:
+    with open('./res/FlipBoard_6k.tsv','w+',encoding='utf8') as f_w:
+        cnt=0
         while (True):
             a = f_r.readline()
             if not a:
@@ -17,7 +19,7 @@ with open("FJB_Merge.tsv", 'r', encoding='utf8') as f_r:
             b = a[2][:-1].split(', ')
             a[2]=[]
             for l in b:
-                if l in labels:
+                if l in labels.keys():
                     if a[2]==[] :
                         a[2]=l
                     else:
@@ -27,4 +29,6 @@ with open("FJB_Merge.tsv", 'r', encoding='utf8') as f_r:
             #     print(a[2])
             #     print("move before:",len(b),'->move after:',len(a[2].split(', ')))
             if(a[2]!=[]):
+                cnt+=1
                 f_w.write(('\t'.join(a))+'\n')
+        print("data count:",cnt)

@@ -6,8 +6,6 @@ import numpy as np
 import os
 import re
 print('Repeated "title+body" paper merge......')
-#"C:\\Users\\t-yunche\\file\\example1.tsv"
-# data=pd.read_csv("C:\\Users\\t-yunche\\file\\dataset\\Flipboard_Join_Body.tsv",sep='\t',error_bad_lines=False,encoding='utf8',header=None)
 with open("C:\\Users\\t-yunche\\file\\dataset\\Flipboard_Join_Body.tsv",'r',encoding='utf8') as f_r:
     with open("FJB_Merge.tsv",'w+',encoding='utf8') as f_w:
         merge=f_r.readline()

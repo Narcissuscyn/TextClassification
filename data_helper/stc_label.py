@@ -1,70 +1,8 @@
-# import pandas as pd
-# from collections import OrderedDict
-# import numpy as np
-# import re
-# from nltk.stem import WordNetLemmatizer
-# wnl = WordNetLemmatizer()
-# import os
-# print("loading dataset...")
-# # data=pd.read_csv("C:\\Users\\t-yunche\\file\\dataset\\Flipboard_Join_Body.tsv",sep='\t',error_bad_lines=False,encoding='utf8',header=None)
-# data_dir="C:\\Users\\t-yunche\\file\\dataset\\topic\\source"
-# label_list=[]
-# i=1
-# while(i<7):
-#     file=os.path.join(data_dir,str(i)+'.tsv')
-#     print("loading file ", file)
-#     data=pd.read_csv(file,delimiter='\t',error_bad_lines=False,encoding='utf8',header=None)
-#     label_list.extend(data[2])
-#     del data
-#     i+=1
-#
-#
-# freq={}
-# freq_thresh=10
-# rule=re.compile(u"[^a-zA-Z ]")
-#
-# # print("data count:",data.shape[0])
-# for i,d in enumerate(label_list):
-#
-#     topic = d.split(', ')
-#     for a in topic:
-#         a = rule.sub("", a)
-#         if (a == ''):
-#             continue
-#         if(' ' not in a):
-#             a = wnl.lemmatize(a)  # lemmatization
-#         if a not in freq.keys():
-#             freq[a]=0
-#         freq[a]+=1
-#
-# print("move before: ",freq.__len__())
-# keys=list(freq.keys())
-# for key in keys:
-#     if(freq[key]<freq_thresh):
-#         freq.pop(key)
-# print("move after: ",freq.__len__())
-#
-# freq = sorted(freq.items(), key=lambda x: x[1],reverse=True)
-# print(freq)
-#
-#
-# f=open("./label_th10.txt",'w+',encoding='utf-8')
-# for idx,item in enumerate(freq):
-#     print(item)
-#     f.write((item[0]+'\n'))
-# f.close()
+import numpy as  np
+label_freq={}
+mul_lab_freq={}
 
-
-import pandas as pd
-from collections import OrderedDict
-import numpy as np
-import re
-from nltk.stem import WordNetLemmatizer
-wnl = WordNetLemmatizer()
-import os
-freq_thresh=5
-freq={}
-with open("./res/FJB_Merge_remove_shuffle.tsv", 'r', encoding='utf8') as f_r:
+with open("./res/FlipBoard_3k.tsv", 'r', encoding='utf8') as f_r:
         while(True):
             a = f_r.readline()
             if not a:
@@ -72,23 +10,20 @@ with open("./res/FJB_Merge_remove_shuffle.tsv", 'r', encoding='utf8') as f_r:
             a = a.split('\t')
 
             a=a[2][:-1].split(', ')
+            len_=len(a)
+            mul_lab_freq.setdefault(len_,0)
+            mul_lab_freq[len_]+=1
             for l in a:
-                if l not in freq.keys():
-                    freq[l]=0
-                freq[l]+=1
+                label_freq.setdefault(l, 0)
+                label_freq[l]+=1
 
 
-print("move before: ",freq.__len__())
-keys=list(freq.keys())
-for key in keys:
-    if(freq[key]<freq_thresh):
-        freq.pop(key)
-print("move after: ",freq.__len__())
+#compute Avg. Points per label
+Avg_per_lb=np.sum(list(label_freq.values()))/len(label_freq.keys())
+print("Avg. Points per label",Avg_per_lb)
+#compute Avg. Labels per point
 
-freq = sorted(freq.items(), key=lambda x: x[1],reverse=True)
-print(freq)
-
-with open("label_remove_th5.txt", 'w+', encoding='utf8') as f_w:
-    for idx,item in enumerate(freq):
-        print(item)
-        f_w.write((item[0]+'\n'))
+arr_key=np.array(list(mul_lab_freq.keys()))
+arr_val=np.array(list(mul_lab_freq.values()))
+Avg_per_data=(arr_key*arr_val).sum()/arr_val.sum()
+print("Avg. Labels per point",Avg_per_data)
