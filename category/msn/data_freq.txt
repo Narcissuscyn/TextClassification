@@ -1,0 +1,153 @@
+sport 850678
+finance 294679
+nfl 209372
+politics 187028
+money 129416
+lifestyle 128455
+mlb 118877
+market 99424
+technology 98362
+nba 87898
+travel 83526
+food and drink 81422
+music 76165
+company 68882
+weather 63998
+food 62972
+movie 60476
+stock 60033
+health 49900
+soccer 46888
+celebrity 44790
+nhl 44226
+golf 31448
+entertainment 25945
+mma 21860
+medical 20816
+motorsport 20502
+real estate 20416
+crime 16803
+investing 12630
+tennis 12316
+horoscope 11300
+family 7694
+premier league 6878
+game 6649
+mma ufc 6477
+home and garden 5791
+relationship 5542
+ml 5394
+business 5369
+nutrition 4812
+recipe 4795
+opinion 4288
+wedding 4060
+enthusiast 3909
+royal 3712
+review 3392
+pets 3380
+smart living 3368
+recap 3301
+retirement 2654
+beauty 2495
+fitness 2171
+restaurant 2038
+motorcycle 1829
+cookingschool 1620
+animal 1604
+fashion 1583
+classic cars 1357
+oscar 1356
+gallery 1219
+tax 1085
+humor 1083
+beverage 1001
+insurance 994
+career 929
+award 882
+tip 834
+wine 813
+fifa world cup 812
+pop culture 783
+pregnancyparenting 739
+bundesliga 720
+suvs 627
+advice 601
+luxury 591
+parenting 563
+trucks 561
+comedy 525
+ownership 513
+adventure 485
+family relationships 481
+science 450
+credit 446
+hybrids 430
+shopping 420
+basketball 320
+la liga 272
+mind and soul 271
+buying 268
+love sex 259
+research 258
+marriage 217
+beer and cider 216
+tv celebrity 203
+mentalhealth 194
+healthcare 168
+movies celebrity 163
+food culture 154
+esports 150
+cma awards 146
+international 131
+car tech 125
+africa 120
+people places 112
+compact 107
+ligue un 106
+decor 103
+racing 87
+accessible 83
+traveltripideas 82
+healthy heart 80
+shopping all 79
+music celebrity 79
+cancer 76
+sema 73
+passenger 73
+home loans 70
+shows 64
+geneva 59
+book 55
+environment 54
+season 52
+diy 47
+osteoporosis 45
+familyfun 45
+cardio 39
+boxing 38
+skin health 35
+smartliving 35
+gender equality 34
+food insecurity 33
+uefa europa league 33
+exercise 31
+tv gallery 31
+inmigracion 30
+design 29
+olympics 28
+travel tips 25
+sexual health 25
+travel article 24
+moving 23
+fuel economy 22
+movies gallery 22
+tenis 19
+trend 17
+lating rammy awards 15
+english fa cup 15
+election 15
+movies oscars 14
+boxing mma 13
+lung health 13
+wnba 11

@@ -1,0 +1,115 @@
+life,lifestyle
+tech,technology
+intelligencer,intelligence
+motorsports,motorsport
+lifestylebuzz,lifestyle
+shopping-all,shopping
+lifestyles,lifestyle
+topstocks,stock
+smallbusiness,business
+empresas,company
+technologyinvesting,investing
+careersandeducation,career and education
+personalfinance,personal finance
+mutualfunds,mutual funds
+savingandinvesting,investing
+bills to pay,bills
+health cancer,cancer
+soccer_liga,soccer liga
+smartspending,consumption
+lifestylegeneral,lifestyle
+autospassenger,autos passenger
+ruokauutiset,food
+ruoka ja juoma,food
+worldcrime,crime
+finance mutual funds,mutual funds
+soccer_liga,soccer liga
+finance credit,credit
+koti ja vapaa aika,familyfun
+lifestylecelebstyle,lifestyle
+medizinisch,medical
+muu urheilu,sport
+uselection,election
+lifestylebeauty,beauty
+entertainmenttv,entertainment
+lifestyletravel,travel
+autosreview,autos review
+style,lifestyle
+lifetsylepets,pets
+lifestyledesign,design
+latingrammyawards,lating rammy awards
+acmawards,cma awards
+shopping home goods,shopping
+lifestyle general,lifestyle
+moving guide,moving
+travelarticle,travel article
+sexualhealth,sexual health
+traveltips,travel tips
+special olympics,olympics
+finance taxes,tax
+finance retirement,retirement
+autosbuying,buying
+tv recaps,recap
+lifestylesmartliving,smartliving
+finance top stocks,stock
+start investing,investing
+science tech,science
+unternehmen,company
+realestate,real estate
+finance real estate,real estate
+foodrecipes,recipe
+seasonal,season
+futbol,soccer
+foodanddrink,food and drink
+tecnologia,technology
+finance billstopay,finance
+wnbafinals,wnba
+cancer awareness,cancer
+fussball,soccer
+pets animals,pets
+lifestyleroyals,royal
+royalsworld,royal
+unterhaltung,entertainment
+weathertopstories,weather
+beerandcider,beer and cider
+finance companies,company
+adventuretravel,adventure
+shopping holidays,shopping
+lifestyleparenting,parenting
+politik,politics
+restaurantsand,restaurant
+pet,pets
+tripideas,travel
+wellness,health
+sexualhealth,sexual health
+autos suvs,suvs
+autos luxury,luxury
+autos sports,sport
+autos trucks,trucks
+autos compact,compact
+autos hybrids,hybrids
+autosluxury,luxury
+autos passenger,passenger
+autostrucks,trucks
+autossuvs,suvs
+autossports,sport
+autoshybrids,hybrids
+autosmotorcycles,motorcycle
+autosownership,ownership
+autos review,review
+autosracing,racing
+auto shows,shows
+autoinsurance,insurance
+deportes,sport
+small business,business
+finanzen,finance
+foodculture,food culture
+entretenimiento,entertainment
+popculture,pop culture
+foodculture,food culture
+sports,sport
+lifestyle buzz,lifestyle
+entertainmentmusic,music
+gaming,game
+mmaufc,mma ufc
+trending,trend
