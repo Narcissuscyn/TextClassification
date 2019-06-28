@@ -1,7 +1,222 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e4bad87-84d7-4780-a6a6-20111fd1c1ba" name="Default Changelist" comment="" />
+    <list default="true" id="4e4bad87-84d7-4780-a6a6-20111fd1c1ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msn/label_stc_and_proj.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data_helper/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data_helper/data_tools/data_division.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data_helper/data_tools/draw_fig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data_helper/data_tools/statistic_label.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data_helper/data_tools/word_proc1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data_helper/data_tools/word_proc2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data_helper/data_tools/word_proc3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data_helper/data_tools/word_proc4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data_helper/data_tools/word_proc5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data_helper/data_tools/word_proc_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data_helper/res/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML/Makefile.win" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML/binaries/Linux/fastXML_predict" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML/binaries/Linux/fastXML_train" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML/binaries/Windows/fastXML_predict.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML/binaries/Windows/fastXML_train.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML/fastXML.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML/fastXML.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML/fastXML.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML/fastXML_predict.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML/fastXML_predict.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML/fastXML_predict.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML/fastXML_predict.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML/fastXML_train.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML/fastXML_train.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML/fastXML_train.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML/fastXML_train.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML/inv_prop_gen.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML/mat.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML/sample_run.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML/sample_run.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML/sample_run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/.vs/FastXML_vs/v16/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/.vs/FastXML_vs/v16/Browse.VC.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/.vs/FastXML_vs/v16/ipch/AutoPCH/20f78d249bc5416e/FASTXML_TRAIN.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/.vs/FastXML_vs/v16/ipch/AutoPCH/31f5a2f24a62686e/FASTXML_TRAIN.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/.vs/FastXML_vs/v16/ipch/AutoPCH/3a3500704dfdd438/MAT.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/.vs/FastXML_vs/v16/ipch/AutoPCH/4cc0b49cf8ff764f/FASTXML_TRAIN.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/.vs/FastXML_vs/v16/ipch/AutoPCH/692f298171e308e5/FASTXML_TRAIN.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/.vs/FastXML_vs/v16/ipch/AutoPCH/69f145530778e869/FASTXML.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/.vs/FastXML_vs/v16/ipch/AutoPCH/76d50bd71ca23f69/FASTXML.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/.vs/FastXML_vs/v16/ipch/AutoPCH/7c33ea14bda4c57a/MAT.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/.vs/FastXML_vs/v16/ipch/AutoPCH/7efe9a2a3b3afb50/FASTXML_VS.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/.vs/FastXML_vs/v16/ipch/AutoPCH/b2b9837244c3d822/FASTXML.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/.vs/FastXML_vs/v16/ipch/AutoPCH/dd0838a621a803b9/FASTXML.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/.vs/FastXML_vs/v16/ipch/AutoPCH/eb4a4f457dd4e79e/FASTXML_TRAIN.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/Debug/FastXML_vs.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/Debug/FastXML_vs.ilk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/Debug/FastXML_vs.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/Debug/FastXML_vs.tlog/CL.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/Debug/FastXML_vs.tlog/CL.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/Debug/FastXML_vs.tlog/CL.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/Debug/FastXML_vs.tlog/FastXML_vs.lastbuildstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/Debug/FastXML_vs.tlog/link.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/Debug/FastXML_vs.tlog/link.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/Debug/FastXML_vs.tlog/link.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/Debug/fastXML.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/Debug/fastXML_train.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/Debug/mat.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/Debug/vc142.idb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/Debug/vc142.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/FastXML_vs.aps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/FastXML_vs.rc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/FastXML_vs.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/FastXML_vs.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/FastXML_vs.vcxproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/config.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/fastXML.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/fastXML.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/fastXML_predict.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/fastXML_train.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/mat.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/mat.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/resource.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/svm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/timer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/utils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Debug/FastXML_vs.res" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Debug/FastXML_vs.tlog/CL.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Debug/FastXML_vs.tlog/CL.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Debug/FastXML_vs.tlog/CL.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Debug/FastXML_vs.tlog/FastXML_vs.lastbuildstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Debug/FastXML_vs.tlog/link.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Debug/FastXML_vs.tlog/link.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Debug/FastXML_vs.tlog/link.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Debug/FastXML_vs.tlog/rc.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Debug/FastXML_vs.tlog/rc.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Debug/FastXML_vs.tlog/rc.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Debug/fastXML.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Debug/fastXML_train.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Debug/mat.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Debug/vc142.idb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Debug/vc142.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Release/FastXML_vs.res" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Release/FastXML_vs.tlog/CL.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Release/FastXML_vs.tlog/CL.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Release/FastXML_vs.tlog/CL.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Release/FastXML_vs.tlog/FastXML_vs.lastbuildstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Release/FastXML_vs.tlog/FastXML_vs.write.1u.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Release/FastXML_vs.tlog/link.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Release/FastXML_vs.tlog/link.delete.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Release/FastXML_vs.tlog/link.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Release/FastXML_vs.tlog/link.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Release/FastXML_vs.tlog/rc.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Release/FastXML_vs.tlog/rc.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Release/FastXML_vs.tlog/rc.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Release/RCa06164" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Release/fastXML.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Release/fastXML_predict.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Release/fastXML_train.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Release/mat.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/FastXML_vs/x64/Release/vc142.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/x64/Debug/FastXML_vs.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/x64/Debug/FastXML_vs.ilk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/x64/Debug/FastXML_vs.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/x64/Release/FastXML_vs.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/x64/Release/FastXML_vs.iobj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/x64/Release/FastXML_vs.ipdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/FastXML_vs/x64/Release/FastXML_vs.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/PfastreXML/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/PfastreXML/Makefile.win" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/PfastreXML/PfastreXML.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/PfastreXML/PfastreXML_predict.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/PfastreXML/PfastreXML_predict.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/PfastreXML/PfastreXML_predict.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/PfastreXML/PfastreXML_predict.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/PfastreXML/PfastreXML_train.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/PfastreXML/PfastreXML_train.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/PfastreXML/PfastreXML_train.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/PfastreXML/PfastreXML_train.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/PfastreXML/binaries/Linux/PfastreXML_predict" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/PfastreXML/binaries/Linux/PfastreXML_train" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/PfastreXML/binaries/Windows/PfastreXML_predict.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/PfastreXML/binaries/Windows/PfastreXML_train.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/PfastreXML/fastXML.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/PfastreXML/inv_prop_gen.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/PfastreXML/mat.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/PfastreXML/sample_run.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/PfastreXML/sample_run.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/PfastreXML/sample_run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Sandbox/Results/news_msn/model/param" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Sandbox/Results/news_msn/model_p/param" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Sandbox/Results/news_msn/model_p/w" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/c++/config.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/c++/mat.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/c++/mat.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/c++/svm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/c++/timer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/c++/utils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/convert_format.pl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/.grid_search.m.swp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/binaries/Linux/get_rand_mat.mexa64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/binaries/Linux/mat_to_libsvm.mexa64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/binaries/Linux/read_text_mat.mexa64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/binaries/Linux/sort_sparse_mat.mexa64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/binaries/Linux/sparse_prod.mexa64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/binaries/Linux/split_data.mexa64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/binaries/Linux/write_text_mat.mexa64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/binaries/Windows/get_rand_mat.mexw64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/binaries/Windows/mat_to_libsvm.mexw64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/binaries/Windows/read_text_mat.mexw64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/binaries/Windows/sort_sparse_mat.mexw64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/binaries/Windows/sparse_prod.mexw64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/binaries/Windows/split_data.mexw64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/binaries/Windows/write_text_mat.mexw64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/block_partition.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/create_recur_dir.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/get_rand_mat.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/load_dataset.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/load_split.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/load_std_xmlc_dataset.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/make.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/mat_to_libsvm.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/mex_utils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/norm_features.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/pdist2_func.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/read_string_file.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/read_text_mat.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/sort_sparse_mat.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/sparse_prod.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/split_data.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/trunc_dist_mat.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/write_string_file.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/matlab/write_text_mat.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/metrics/coverage_k.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/metrics/get_all_metrics.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/metrics/inv_propensity.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/metrics/inv_propensity_wrap.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/metrics/nDCG_k.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/metrics/nDCG_wt_k.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/metrics/precision_k.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/metrics/precision_wt_k.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_dir/Tools/metrics/recall_k.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msn/labeltree_son.json" beforeDir="false" afterPath="$PROJECT_DIR$/msn/labeltree_son.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/wrong_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tools/wrong_list.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_helper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../data_helper/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_helper/data_tools/data_filt_word_dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/../data_helper/data_tools/word_proc_vocab.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_helper/data_tools/data_shufffle.py" beforeDir="false" afterPath="$PROJECT_DIR$/../data_helper/data_tools/data_shufffle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_helper/data_tools/data_split.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_helper/data_tools/dict_filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/../data_helper/data_tools/get_vocab.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_helper/data_tools/get_data_lbl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_helper/data_tools/raw_data_word_proc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_helper/data_tools/raw_word_proc.py" beforeDir="false" afterPath="$PROJECT_DIR$/../data_helper/data_tools/word_proc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_helper/data_tools/stc_label.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_helper/data_tools/stc_label_freq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_helper/data_tools/stc_multi_label_freq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_helper/feature_eatract/ft_extract.py" beforeDir="false" afterPath="$PROJECT_DIR$/../data_helper/feature_eatract/ft_tradition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_helper/feature_eatract/ft_to_train.py" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,7 +224,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/msn/label_clean_and_stc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+              <folding>
+                <element signature="e#148#166#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/msn/label_stc_and_proj.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -20,11 +253,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&quot;gallery&quot;</find>
-      <find>&quot;emmy&quot;</find>
-      <find>emmy</find>
-      <find>&quot;celebrity&quot;,</find>
-      <find>business</find>
       <find>technology investing</find>
       <find>investing</find>
       <find>saving and investing</find>
@@ -34,7 +262,6 @@
       <find>weather</find>
       <find>small</find>
       <find>smallbusiness</find>
-      <find>small</find>
       <find>deportes</find>
       <find>sports&quot;</find>
       <find>lifestyle</find>
@@ -50,6 +277,12 @@
       <find>trend</find>
       <find>cul</find>
       <find>sports</find>
+      <find>10 Super Bowl Snacks &amp; Appetize</find>
+      <find>recipe</find>
+      <find>recipes</find>
+      <find>video</find>
+      <find>videos</find>
+      <find>noticias</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -59,6 +292,9 @@
       <replace>emmy</replace>
       <replace>\n</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/wiki/wiki_cate.py" root0="SKIP_INSPECTION" />
@@ -87,7 +323,6 @@
         <option value="$PROJECT_DIR$/msn/labellist_msn_raw.txt" />
         <option value="$PROJECT_DIR$/msn/annotate_msn_news.py" />
         <option value="$PROJECT_DIR$/msn/data_freq.txt" />
-        <option value="$PROJECT_DIR$/tools/wrong_list.txt" />
         <option value="$PROJECT_DIR$/msn/msn_labeltree_father.py" />
         <option value="$PROJECT_DIR$/msn/labeltree_father.json" />
         <option value="$PROJECT_DIR$/msn/labellist_msn_clean.txt" />
@@ -98,14 +333,18 @@
         <option value="$PROJECT_DIR$/tools/my_words.txt" />
         <option value="$PROJECT_DIR$/t.txt" />
         <option value="$PROJECT_DIR$/msn/labellist_msn.txt" />
+        <option value="$PROJECT_DIR$/tools/wrong_list.txt" />
+        <option value="$PROJECT_DIR$/msn/label_stc_and_proj.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="957" />
-    <option name="height" value="535" />
+    <option name="x" value="712" />
+    <option name="width" value="735" />
+    <option name="height" value="868" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -119,6 +358,16 @@
               <item name="category" type="b2602c69:ProjectViewProjectNode" />
               <item name="category" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="category" type="b2602c69:ProjectViewProjectNode" />
+              <item name="category" type="462c0819:PsiDirectoryNode" />
+              <item name="msn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="category" type="b2602c69:ProjectViewProjectNode" />
+              <item name="category" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -127,8 +376,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/dataset/MSN_NEWS/annotated/category_msn.tsv" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -301,16 +551,20 @@
       <workItem from="1560996249034" duration="4645000" />
       <workItem from="1561001401105" duration="10812000" />
       <workItem from="1561341203770" duration="88679000" />
+      <workItem from="1561614166608" duration="194000" />
+      <workItem from="1561621470024" duration="1165000" />
+      <workItem from="1561707479547" duration="1629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104136000" />
+    <option name="totallyTimeSpent" value="107124000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1753" height="1062" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22424956" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28075337" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -329,7 +583,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.086521484" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.10476751" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -381,16 +635,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res.tsv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/res.tsv" />
     <entry file="file://C:/software/anaconda3_x86/Lib/site-packages/IPython/core/interactiveshell.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -398,45 +643,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mywords.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/dataset/category_label_partial.tsv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="228">
-          <caret line="597" column="3" selection-start-line="597" selection-start-column="3" selection-end-line="617" selection-end-column="37" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider editor-type-id="LargeFileEditor">
-        <state relative-caret-position="-2166">
-          <caret line="42" column="48" lean-forward="true" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/dataset/category_raw.tsv">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="293">
-          <caret line="274" column="1144" lean-forward="true" selection-start-line="274" selection-start-column="1144" selection-end-line="274" selection-end-column="1144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/dataset/category_label.tsv">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="68">
-          <caret line="551" selection-start-line="551" selection-end-line="551" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dict_hierachy.npy">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mywords.txt" />
+    <entry file="file://D:/dataset/category_label_partial.tsv" />
+    <entry file="file://D:/dataset/category_raw.tsv" />
+    <entry file="file://D:/dataset/category_label.tsv" />
+    <entry file="file://$PROJECT_DIR$/dict_hierachy.npy" />
     <entry file="file://C:/software/anaconda3_x86/Lib/site-packages/numpy/lib/npyio.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -444,23 +655,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_read_write.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ww.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data_read_write.py" />
+    <entry file="file://$PROJECT_DIR$/ww.py" />
     <entry file="file://$PROJECT_DIR$/wordnet/get_label_tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -510,13 +706,7 @@
     <entry file="file://$PROJECT_DIR$/tools/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://D:/dataset/category_raw_msn.tsv">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="285">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/dataset/category_raw_msn.tsv" />
     <entry file="file://$PROJECT_DIR$/tools/data_split.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -541,55 +731,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/msn/label_index_msn_raw.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="52" selection-start-column="52" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/msn/label_index_msn_clean.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="48" lean-forward="true" selection-start-column="48" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/msn/fig_label_freq_clean.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/msn/label_index_msn_raw.json" />
+    <entry file="file://$PROJECT_DIR$/msn/label_index_msn_clean.json" />
+    <entry file="file://$PROJECT_DIR$/msn/fig_label_freq_clean.jpg" />
     <entry file="file://$PROJECT_DIR$/msn/fig_label_freq.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/msn/labellist_msn_raw_0.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11645" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/msn/labeltree_father_clean.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/msn/msn_labeltree_son.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/msn/labellist_msn_clean.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="145" column="14" lean-forward="true" selection-start-line="145" selection-start-column="14" selection-end-line="145" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/msn/labellist_msn_raw_0.txt" />
+    <entry file="file://$PROJECT_DIR$/msn/labeltree_father_clean.json" />
+    <entry file="file://$PROJECT_DIR$/msn/labellist_msn_clean.txt" />
     <entry file="file://$PROJECT_DIR$/msn/labellist_msn_raw.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11438">
@@ -604,13 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/msn/labeltree_son.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="210" column="21" lean-forward="true" selection-start-line="210" selection-start-column="21" selection-end-line="210" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/msn/label_index_msn.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -618,76 +761,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/wrong_list.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="100" column="3" selection-start-line="100" selection-start-column="3" selection-end-line="100" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/msn/data_freq_clean.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="149" column="22" lean-forward="true" selection-start-line="149" selection-start-column="22" selection-end-line="149" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/msn/msn_labeltree_father.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/my_words.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="115" selection-start-line="115" selection-end-line="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/t.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="138" column="11" selection-start-line="138" selection-start-column="11" selection-end-line="138" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/msn/data_freq.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="134" column="13" lean-forward="true" selection-start-line="134" selection-start-column="13" selection-end-line="134" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/msn/labellist_msn.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="11" lean-forward="true" selection-end-line="167" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/msn/labeltree_father.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="76" selection-start-column="76" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/dataset/MSN_NEWS/annotated/category_msn.tsv">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="19">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/msn/data_freq_clean.txt" />
+    <entry file="file://$PROJECT_DIR$/t.txt" />
+    <entry file="file://$PROJECT_DIR$/test" />
     <entry file="file://$PROJECT_DIR$/msn/annotate_msn_news.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -698,15 +774,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/msn/data_freq.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="120" column="7" lean-forward="true" selection-start-line="120" selection-start-column="7" selection-end-line="120" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msn/labeltree_father.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1482" selection-start-column="1476" selection-end-column="1482" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msn/labeltree_son.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/dataset/MSN_NEWS/annotated/category_msn.tsv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="316">
+          <caret line="117" column="433" lean-forward="true" selection-start-line="117" selection-start-column="433" selection-end-line="117" selection-end-column="433" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/my_words.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="88" column="21" lean-forward="true" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/wrong_list.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="794">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msn/msn_labeltree_son.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="79" column="28" selection-start-line="79" selection-start-column="11" selection-end-line="79" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msn/labellist_msn.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="128" column="11" lean-forward="true" selection-start-line="128" selection-start-column="11" selection-end-line="128" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msn/msn_labeltree_father.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="42" column="50" lean-forward="true" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/msn/label_clean_and_stc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+        <state relative-caret-position="204">
+          <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
           <folding>
             <element signature="e#148#166#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msn/label_stc_and_proj.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
