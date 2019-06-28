@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f93cdda-831b-4e25-8067-1e3d68af2372" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../category/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_tools/statistic_label.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_tools/word_proc1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_tools/word_proc2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_tools/word_proc3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_tools/word_proc4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_tools/word_proc5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_tools/word_proc_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../category/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../category/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../category/msn/labeltree_son.json" beforeDir="false" afterPath="$PROJECT_DIR$/../category/msn/labeltree_son.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../category/tools/wrong_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../category/tools/wrong_list.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_tools/data_filt_word_dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_tools/word_proc_vocab.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_tools/data_shufffle.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_tools/data_shufffle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_tools/data_split.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_tools/data_division.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_tools/dict_filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_tools/get_vocab.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_tools/get_data_lbl.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_tools/raw_data_word_proc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_tools/raw_word_proc.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_tools/word_proc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_tools/stc_label.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_tools/stc_label_freq.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_tools/draw_fig.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_tools/stc_multi_label_freq.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/feature_eatract/ft_extract.py" beforeDir="false" afterPath="$PROJECT_DIR$/feature_eatract/ft_tradition.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feature_eatract/ft_to_train.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/feature_eatract/ft_tradition.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="175" column="10" lean-forward="true" selection-start-line="175" selection-start-column="10" selection-end-line="175" selection-end-column="10" />
+            <state relative-caret-position="660">
+              <caret line="185" column="25" lean-forward="true" selection-start-line="185" selection-start-column="25" selection-end-line="185" selection-end-column="25" />
               <folding>
                 <element signature="n#!!doc" />
                 <element signature="e#2964#2983#0" expanded="true" />
@@ -67,7 +42,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_tools/data_division.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
+            <state relative-caret-position="1121">
               <caret line="115" column="5" selection-start-line="115" selection-start-column="5" selection-end-line="115" selection-end-column="5" />
               <folding>
                 <element signature="n#!!doc" />
@@ -185,9 +160,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="957" />
-    <option name="height" value="536" />
+    <option name="x" value="-8" />
+    <option name="width" value="958" />
+    <option name="height" value="537" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -197,7 +172,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,16 +179,32 @@
               <item name="data_helper" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_helper" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="data_helper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_helper" type="462c0819:PsiDirectoryNode" />
+              <item name="data_tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_helper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_helper" type="462c0819:PsiDirectoryNode" />
+              <item name="feature_eatract" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_helper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_helper" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../category" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="Errors" />
@@ -464,12 +454,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.word_proc" />
       <item itemvalue="Python.word_proc1" />
       <item itemvalue="Python.word_proc2" />
       <item itemvalue="Python.word_proc3" />
       <item itemvalue="Python.word_proc4" />
       <item itemvalue="Python.word_proc5" />
+      <item itemvalue="Python.word_proc" />
       <item itemvalue="Python.data_shufffle" />
       <item itemvalue="Python.data_division" />
       <item itemvalue="Python.ft_tradition" />
@@ -502,11 +492,12 @@
       <workItem from="1560389264214" duration="79759000" />
       <workItem from="1560995885840" duration="362000" />
       <workItem from="1561614362490" duration="24628000" />
+      <workItem from="1561712141124" duration="902000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="287126000" />
+    <option name="totallyTimeSpent" value="288028000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -519,8 +510,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1753" height="1062" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1942319" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19599764" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -657,30 +649,10 @@
     <entry file="file://$PROJECT_DIR$/data_filt_word_dict.py" />
     <entry file="file://$PROJECT_DIR$/dict_filter.py" />
     <entry file="file://$PROJECT_DIR$/raw_word_proc.py" />
-    <entry file="file://$PROJECT_DIR$/feature_eatract/ft_division.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="57" column="10" lean-forward="true" selection-end-line="57" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_tools/data_read.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_tools/basic_func.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_tools/stc_label.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_eatract/ft_division.py" />
+    <entry file="file://$PROJECT_DIR$/data_tools/data_read.py" />
+    <entry file="file://$PROJECT_DIR$/data_tools/basic_func.py" />
+    <entry file="file://$PROJECT_DIR$/data_tools/stc_label.py" />
     <entry file="file://$PROJECT_DIR$/data_tools/statistic_label.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-314">
@@ -701,13 +673,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_tools/stc_multi_label_freq.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="51" column="7" selection-start-line="51" selection-end-line="51" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data_tools/stc_multi_label_freq.py" />
     <entry file="file://$PROJECT_DIR$/data_tools/word_proc_1.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -791,26 +757,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/dataset/Sandbox/Data/news_msn/trn_X_Xf.txt">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="57">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/dataset/Sandbox/Data/news_msn/trn_X_Y.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="10973" column="3" lean-forward="true" selection-start-line="10973" selection-start-column="3" selection-end-line="10973" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/dataset/Sandbox/Data/news_msn/tst_X_Xf.txt">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://D:/dataset/Sandbox/Data/news_msn/tst_X_Y.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://D:/dataset/Sandbox/Data/news_msn/trn_X_Xf.txt" />
+    <entry file="file://D:/dataset/Sandbox/Data/news_msn/trn_X_Y.txt" />
+    <entry file="file://D:/dataset/Sandbox/Data/news_msn/tst_X_Xf.txt" />
+    <entry file="file://D:/dataset/Sandbox/Data/news_msn/tst_X_Y.txt" />
     <entry file="file://$PROJECT_DIR$/data_tools/get_vocab.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59">
@@ -845,13 +795,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/dataset/MSN_NEWS/ft/msn_x_y.tsv">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="190">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/dataset/MSN_NEWS/ft/msn_x_y.tsv" />
     <entry file="file://$PROJECT_DIR$/res/vocab_6k.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -866,17 +810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_tools/data_division.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="115" column="5" selection-start-line="115" selection-start-column="5" selection-end-line="115" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" />
-            <element signature="e#1662#1673#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -886,11 +819,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/feature_eatract/ft_tradition.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="175" column="10" lean-forward="true" selection-start-line="175" selection-start-column="10" selection-end-line="175" selection-end-column="10" />
+        <state relative-caret-position="660">
+          <caret line="185" column="25" lean-forward="true" selection-start-line="185" selection-start-column="25" selection-end-line="185" selection-end-column="25" />
           <folding>
             <element signature="n#!!doc" />
             <element signature="e#2964#2983#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_tools/data_division.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="115" column="5" selection-start-line="115" selection-start-column="5" selection-end-line="115" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" />
+            <element signature="e#1662#1673#0" expanded="true" />
           </folding>
         </state>
       </provider>
