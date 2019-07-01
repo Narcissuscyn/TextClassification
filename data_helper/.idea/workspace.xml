@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f93cdda-831b-4e25-8067-1e3d68af2372" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../category/msn/label_hierachy_stc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../category/msn/annotate_single_label.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../category/tools/join_splits.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../category/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../category/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../category/msn/label_stc_and_proj.py" beforeDir="false" afterPath="$PROJECT_DIR$/../category/msn/label_proj.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../category/msn/annotate_msn_news.py" beforeDir="false" afterPath="$PROJECT_DIR$/../category/msn/annotate_labels.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -485,12 +487,12 @@
       <workItem from="1560389264214" duration="79759000" />
       <workItem from="1560995885840" duration="362000" />
       <workItem from="1561614362490" duration="24628000" />
-      <workItem from="1561712141124" duration="1651000" />
+      <workItem from="1561712141124" duration="1653000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="288777000" />
+    <option name="totallyTimeSpent" value="288779000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

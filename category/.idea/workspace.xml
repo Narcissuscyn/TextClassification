@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e4bad87-84d7-4780-a6a6-20111fd1c1ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/msn/label_hierachy_stc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msn/annotate_single_label.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/join_splits.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msn/label_stc_and_proj.py" beforeDir="false" afterPath="$PROJECT_DIR$/msn/label_proj.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msn/annotate_msn_news.py" beforeDir="false" afterPath="$PROJECT_DIR$/msn/annotate_labels.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../data_helper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../data_helper/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,46 +17,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/msn/msn_labeltree_father.py">
+        <entry file="file://$PROJECT_DIR$/msn/annotate_labels.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" selection-start-line="15" selection-end-line="20" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/msn/label_proj.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="51" column="32" lean-forward="true" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+            <state relative-caret-position="95">
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="29" />
               <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/msn/label_hierachy_stc.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="55" column="41" lean-forward="true" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/msn/msn_labeltree_son.py">
+        <entry file="file://$PROJECT_DIR$/msn/annotate_single_label.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="56" column="49" lean-forward="true" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="171">
+              <caret line="12" column="58" lean-forward="true" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -154,6 +131,7 @@
         <option value="$PROJECT_DIR$/tools/wrong_list.txt" />
         <option value="$PROJECT_DIR$/msn/label_stc_and_proj.py" />
         <option value="$PROJECT_DIR$/msn/label_hierachy_stc.py" />
+        <option value="$PROJECT_DIR$/tools/join_splits.py" />
       </list>
     </option>
   </component>
@@ -182,6 +160,11 @@
               <item name="category" type="462c0819:PsiDirectoryNode" />
               <item name="msn" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="category" type="b2602c69:ProjectViewProjectNode" />
+              <item name="category" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -192,24 +175,24 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/dataset/MSN_NEWS/raw/category_raw_2016-05-31_2017-05-30.tsv" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/msn" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\XML\category\msn" />
+      <recent name="D:\code\category\msn" />
+      <recent name="D:\code\category" />
+      <recent name="D:\code\category\wordnet" />
+      <recent name="D:\code\category\wiki" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\code\category\msn" />
       <recent name="D:\code\category\tools" />
       <recent name="D:\code\category\wordnet" />
       <recent name="D:\code\category\wiki" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\code\category\msn" />
-      <recent name="D:\code\category" />
-      <recent name="D:\code\category\wordnet" />
-      <recent name="D:\code\category\wiki" />
-      <recent name="D:\code\category\tools" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -224,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.label_stc_and_proj">
+  <component name="RunManager" selected="Python.join_splits">
     <configuration name="annotate_msn_news" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="category" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -238,7 +221,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/msn/annotate_msn_news.py" />
+      <option name="SCRIPT_NAME" value="D:\code\XML\category\msn\annotate_labels.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="join_splits" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="category" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/join_splits.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -313,42 +318,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="msn_labeltree_son" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="category" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/msn" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/msn/msn_labeltree_son.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.msn_labeltree_father" />
       <item itemvalue="Python.label_clean_and_stc" />
-      <item itemvalue="Python.msn_labeltree_son" />
       <item itemvalue="Python.annotate_msn_news" />
       <item itemvalue="Python.label_stc_and_proj" />
+      <item itemvalue="Python.join_splits" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.join_splits" />
         <item itemvalue="Python.label_stc_and_proj" />
         <item itemvalue="Python.annotate_msn_news" />
         <item itemvalue="Python.msn_labeltree_father" />
         <item itemvalue="Python.label_clean_and_stc" />
-        <item itemvalue="Python.msn_labeltree_son" />
       </list>
     </recent_temporary>
   </component>
@@ -367,22 +350,23 @@
       <workItem from="1561341203770" duration="88679000" />
       <workItem from="1561614166608" duration="194000" />
       <workItem from="1561621470024" duration="1165000" />
-      <workItem from="1561707479547" duration="6928000" />
+      <workItem from="1561707479547" duration="8302000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112423000" />
+    <option name="totallyTimeSpent" value="113797000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1753" height="1062" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28075337" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32932165" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.032822758" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48249453" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34245077" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -425,20 +409,10 @@
     <SUITE FILE_PATH="coverage/category$get_label_tree.coverage" NAME="get_label_tree Coverage Results" MODIFIED="1561362772452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/category$annotate_msn_news.coverage" NAME="annotate_msn_news Coverage Results" MODIFIED="1561607547632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/msn" />
     <SUITE FILE_PATH="coverage/category$msn_labeltree_father.coverage" NAME="msn_labeltree_father Coverage Results" MODIFIED="1561607514166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/msn" />
+    <SUITE FILE_PATH="coverage/category$join_splits.coverage" NAME="join_splits Coverage Results" MODIFIED="1561959931375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
     <SUITE FILE_PATH="coverage/category$get_dict_father.coverage" NAME="get_dict_father Coverage Results" MODIFIED="1561514913091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/software/anaconda3_x86/Lib/site-packages/IPython/core/interactiveshell.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="3295" selection-start-line="3295" selection-end-line="3295" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mywords.txt" />
-    <entry file="file://D:/dataset/category_label_partial.tsv" />
-    <entry file="file://D:/dataset/category_raw.tsv" />
-    <entry file="file://D:/dataset/category_label.tsv" />
     <entry file="file://$PROJECT_DIR$/dict_hierachy.npy" />
     <entry file="file://C:/software/anaconda3_x86/Lib/site-packages/numpy/lib/npyio.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -615,27 +589,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/msn/annotate_msn_news.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/msn/labellist_msn.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
           <caret line="128" column="11" lean-forward="true" selection-start-line="128" selection-start-column="11" selection-end-line="128" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/msn/msn_labeltree_father.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" selection-start-line="15" selection-end-line="20" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -646,10 +603,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/dataset/MSN_NEWS/raw/category_raw_2017-06-10_2019-06-10.tsv">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://D:/dataset/MSN_NEWS/raw/category_raw_2016-05-31_2017-05-30.tsv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="19">
+          <caret line="1" column="304" lean-forward="true" selection-start-line="1" selection-start-column="304" selection-end-line="1" selection-end-column="304" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/msn/label_proj.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="51" column="32" lean-forward="true" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+        <state relative-caret-position="502">
+          <caret line="38" column="11" lean-forward="true" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/dataset/MSN_NEWS/raw/news_msn_raw_extra.tsv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="386">
+          <caret line="31" column="3709" lean-forward="true" selection-start-line="31" selection-start-column="3709" selection-end-line="31" selection-end-column="3709" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/join_splits.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msn/msn_labeltree_father.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msn/msn_labeltree_son.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
@@ -668,18 +666,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/msn/data_freq.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1919">
-          <caret line="101" column="17" lean-forward="true" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
+        <state relative-caret-position="68">
+          <caret line="83" column="10" lean-forward="true" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/msn/msn_labeltree_son.py">
+    <entry file="file://$PROJECT_DIR$/msn/annotate_labels.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="56" column="49" lean-forward="true" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
+        <state relative-caret-position="95">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="29" />
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msn/annotate_single_label.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="58" lean-forward="true" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
         </state>
       </provider>
     </entry>
